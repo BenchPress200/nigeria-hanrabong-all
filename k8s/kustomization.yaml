@@ -1,0 +1,7 @@
+namespace: default
+resources:
+  - nginx.yaml
+  - redis.yaml
+  - mysql.yaml
+  - frontend.yaml
+  - backend.yaml
