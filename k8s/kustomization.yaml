@@ -4,3 +4,11 @@ resources:
   - mysql.yaml
   - frontend.yaml
   - backend.yaml
+  configMapGenerator:
+  - name: nginx
+    files:
+      - configs/default.conf
+secretGenerator:
+  - name: my-secret-file
+    files:
+      - configs/secret.json
