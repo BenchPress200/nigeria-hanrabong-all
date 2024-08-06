@@ -9,6 +9,6 @@ resources:
     files:
       - configs/default.conf
 secretGenerator:
-  - name: my-secret-file
+  - name: secret
     files:
       - configs/secret.json
